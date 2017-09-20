@@ -14,9 +14,7 @@ public class Agente {
 	private Estado estado;
 	private Stack<Estado> pilha;
 	private List<Estado> listaExplorada;
-	private Estado.Acao[] acoes;
 	private String resultado = "";
-	private int aux = 0;
 
 	public Agente(Estado estado) {
 		iniciaAgente(estado);
@@ -30,8 +28,6 @@ public class Agente {
 		this.estado = estado;
 		this.pilha = new Stack<>();
 		this.listaExplorada = new ArrayList<>();
-		//this.acoes = new Estado.Acao[]{IR_ESQUERDA, IR_DIREITA, LIMPAR};
-		this.acoes = new Estado.Acao[]{IR_DIREITA, LIMPAR, IR_ESQUERDA, LIMPAR};
 	}
 
 	private Estado criaEstado() {
@@ -41,90 +37,6 @@ public class Agente {
 		estado.setSituacaoDireita(Situacao.SUJO);
 		return estado;
 	}
-
-	public void executaLimpeza() {
-		aspirarBep(estado);
-	}
-
-	private int geraNumeroAleatorio() {
-		Random r = new Random();
-		return r.nextInt(3);
-	}
-
-//	private void aspirar(Estado estado) {
-//		if (isObjetivo(estado)) {
-//			pilha.push(estado);
-//			fila.add(estado);
-//			imprimeResultado(estado);
-//			//imprimePilha();
-//			//imprimeFila();
-//		} else {
-//			Estado e = new Estado();
-//			//Estado.Acao acao = acoes[geraNumeroAleatorio()];
-//			Estado.Acao acao = acoes[aux];
-//			switch (estado.getPosicaoAgente()) {
-//				case ESQUERDA:
-//					if (acao.equals(Estado.Acao.IR_DIREITA)) {
-//						e.setSituacaoEsquerda(estado.getSituacaoEsquerda());
-//						e.setSituacaoDireita(estado.getSituacaoDireita());
-//						e.setPosicaoAgente(PosicaoAgente.DIREITA);
-//						e.setEstadoPai(estado);
-//						//estado.setEstadoDireito(e);
-//						pilha.push(estado);
-//						fila.add(estado);
-//					} else if (acao.equals(Estado.Acao.IR_ESQUERDA)) {
-//						e = estado;
-//						//estado.setEstadoEsquerdo(null);
-//						pilha.push(estado);
-//						fila.add(estado);
-//					} else {
-//						if (estado.getSituacaoEsquerda().equals(Situacao.SUJO)) {
-//							e.setSituacaoEsquerda(Situacao.LIMPO);
-//							e.setSituacaoDireita(estado.getSituacaoDireita());
-//							e.setPosicaoAgente(estado.getPosicaoAgente());
-//							e.setEstadoPai(estado);
-//							//estado.setEstadoLimpo(e);
-//							pilha.push(estado);
-//							fila.add(estado);
-//						} else {
-//							e = estado;
-//						}
-//					}
-//					break;
-//
-//				case DIREITA:
-//					if (acao.equals(Estado.Acao.IR_DIREITA)) {
-//						e = estado;
-//						//estado.setEstadoDireito(null);
-//						pilha.push(estado);
-//						fila.add(estado);
-//					} else if (acao.equals(Estado.Acao.IR_ESQUERDA)) {
-//						e.setSituacaoDireita(estado.getSituacaoDireita());
-//						e.setSituacaoEsquerda(estado.getSituacaoEsquerda());
-//						e.setPosicaoAgente(PosicaoAgente.ESQUERDA);
-//						e.setEstadoPai(estado);
-//						//estado.setEstadoEsquerdo(e);
-//						pilha.push(estado);
-//						fila.add(estado);
-//					} else {
-//						if (estado.getSituacaoDireita().equals(Situacao.SUJO)) {
-//							e.setSituacaoDireita(Situacao.LIMPO);
-//							e.setSituacaoEsquerda(estado.getSituacaoEsquerda());
-//							e.setPosicaoAgente(estado.getPosicaoAgente());
-//							e.setEstadoPai(estado);
-//							//estado.setEstadoLimpo(e);
-//							pilha.push(estado);
-//							fila.add(estado);
-//						} else {
-//							e = estado;
-//						}
-//					}
-//					break;
-//			}
-//			aux++;
-//			aspirar(e);
-//		}
-//	}
 
 	public void aspirarUsandoBuscaEmProfundidade() {
 		aspirarBep(this.estado);
@@ -191,8 +103,8 @@ public class Agente {
 					estadoLim.setSituacaoEsquerda(estado.getSituacaoEsquerda());
 
 					pilha.push(estadoLim);
-					pilha.push(estadoEsq);
 					pilha.push(estadoDir);
+					pilha.push(estadoEsq);
 
 				}
 				listaExplorada.add(estado);
