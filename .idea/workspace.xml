@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9ee0a4-9f53-4f2d-848e-c15fea022f0c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Agente.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$Acao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$PosicaoAgente.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$Situacao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Principal.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/Agente.java" afterPath="$PROJECT_DIR$/src/classes/Agente.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/Principal.java" afterPath="$PROJECT_DIR$/src/classes/Principal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +19,13 @@
       <file leaf-file-name="Agente.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="1206">
+              <caret line="187" column="22" lean-forward="false" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4563#4564#0" expanded="true" />
-                <element signature="e#4613#4614#0" expanded="true" />
+                <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+                <element signature="e#6703#6704#0" expanded="true" />
+                <element signature="e#6753#6754#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +49,8 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -75,6 +70,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/classes/Estado.java" />
+        <option value="$PROJECT_DIR$/src/classes/Principal.java" />
         <option value="$PROJECT_DIR$/src/classes/Agente.java" />
       </list>
     </option>
@@ -290,7 +286,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5811966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -331,42 +327,78 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>47</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>52</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>112</line>
+          <line>114</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>58</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>113</line>
+          <line>115</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>48</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -377,8 +409,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -418,8 +451,9 @@
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -443,8 +477,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -476,8 +511,9 @@
           <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,8 +545,9 @@
           <caret line="86" column="71" lean-forward="false" selection-start-line="86" selection-start-column="71" selection-end-line="86" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,8 +579,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -598,8 +636,9 @@
           <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,8 +657,9 @@
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -643,8 +683,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -676,8 +717,9 @@
           <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -709,8 +751,9 @@
           <caret line="86" column="71" lean-forward="false" selection-start-line="86" selection-start-column="71" selection-end-line="86" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,8 +785,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,22 +828,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="198" column="6" lean-forward="false" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="1206">
+          <caret line="187" column="22" lean-forward="false" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4563#4564#0" expanded="true" />
-            <element signature="e#4613#4614#0" expanded="true" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="e#6703#6704#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
