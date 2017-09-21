@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9ee0a4-9f53-4f2d-848e-c15fea022f0c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$Acao.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Agente.class" afterPath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Agente.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$PosicaoAgente.class" afterPath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$PosicaoAgente.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$Situacao.class" afterPath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado$Situacao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado.class" afterPath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Estado.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Principal.class" afterPath="$PROJECT_DIR$/out/production/AspiradorDePo/classes/Principal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/Agente.java" afterPath="$PROJECT_DIR$/src/classes/Agente.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/Estado.java" afterPath="$PROJECT_DIR$/src/classes/Estado.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/Principal.java" afterPath="$PROJECT_DIR$/src/classes/Principal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,16 +24,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Agente.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Agente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="187" column="22" lean-forward="false" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
+            <state relative-caret-position="480">
+              <caret line="215" column="28" lean-forward="false" selection-start-line="215" selection-start-column="28" selection-end-line="215" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+                <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
                 <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-                <element signature="e#6703#6704#0" expanded="true" />
-                <element signature="e#6753#6754#0" expanded="true" />
+                <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+                <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -34,23 +43,18 @@
       <file leaf-file-name="Estado.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Estado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-                <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-                <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-              </folding>
+            <state relative-caret-position="825">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classes/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="210">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -69,9 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/classes/Agente.java" />
         <option value="$PROJECT_DIR$/src/classes/Estado.java" />
         <option value="$PROJECT_DIR$/src/classes/Principal.java" />
-        <option value="$PROJECT_DIR$/src/classes/Agente.java" />
       </list>
     </option>
   </component>
@@ -81,6 +85,7 @@
     <option name="width" value="1346" />
     <option name="height" value="704" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -96,8 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +124,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,46 +282,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-3" y="-1" width="1372" height="748" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5822148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5822785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26738796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39963832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -327,73 +317,73 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>49</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>54</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>114</line>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>60</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>115</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>50</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>121</line>
+          <line>125</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>122</line>
+          <line>126</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>126</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>132</line>
+          <line>141</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>186</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classes/Agente.java</url>
-          <line>187</line>
+          <line>196</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -403,15 +393,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/classes/Estado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="198" column="6" lean-forward="false" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="512" column="8" lean-forward="false" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Estado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -420,12 +472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -450,10 +497,11 @@
         <state relative-caret-position="2520">
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -462,12 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,10 +519,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -488,12 +532,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,10 +549,11 @@
         <state relative-caret-position="3180">
           <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,12 +570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,10 +579,11 @@
         <state relative-caret-position="1290">
           <caret line="86" column="71" lean-forward="false" selection-start-line="86" selection-start-column="71" selection-end-line="86" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -564,12 +600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,10 +609,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -590,12 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,12 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -635,10 +657,11 @@
         <state relative-caret-position="17">
           <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,10 +679,11 @@
         <state relative-caret-position="2520">
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -668,12 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -682,10 +701,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -694,12 +714,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -716,10 +731,11 @@
         <state relative-caret-position="3180">
           <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,12 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,10 +761,11 @@
         <state relative-caret-position="1290">
           <caret line="86" column="71" lean-forward="false" selection-start-line="86" selection-start-column="71" selection-end-line="86" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,12 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,10 +791,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
             <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,12 +804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,45 +818,34 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/Queue.java" />
     <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/List.java" />
-    <entry file="file://$PROJECT_DIR$/src/classes/Estado.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Queue.java" />
+    <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="480">
+          <caret line="215" column="28" lean-forward="false" selection-start-line="215" selection-start-column="28" selection-end-line="215" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505945433381" expanded="true" signature="1785:1803" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1833:1857" ph="{...}" />
-            <marker date="1505945433381" expanded="true" signature="1877:1915" ph="{...}" />
+            <element signature="method#iniciaAgente#0;class#Agente#0" expanded="false" />
+            <element signature="method#criaEstado#0;class#Agente#0" expanded="false" />
+            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
+            <element signature="method#aspirarBel#0;class#Agente#0" expanded="false" />
+            <element signature="method#imprimeEstado#0;class#Agente#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/classes/Estado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="198" column="6" lean-forward="false" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        <state relative-caret-position="825">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Agente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="187" column="22" lean-forward="false" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#aspirarBep#0;class#Agente#0" expanded="false" />
-            <element signature="e#6703#6704#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,7 +889,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

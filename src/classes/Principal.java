@@ -17,8 +17,8 @@ public class Principal {
 		estadoInicial.setSituacaoDireita(Situacao.SUJO);
 		
 		Agente agente = new Agente(estadoInicial);
-		//agente.aspirarUsandoBuscaEmProfundidade();
-		agente.aspirarUsandoBuscaEmLargura();
+		agente.aspirarUsandoBuscaEmProfundidade();
+		//agente.aspirarUsandoBuscaEmLargura();
 
 	}
 	

@@ -11,7 +11,6 @@ public class Agente {
 	private Stack<Estado> pilha;
 	private Queue<Estado> fila;
 	private List<Estado> listaExplorada;
-	private String resultado = "";
 
 	public Agente(Estado estado) {
 		iniciaAgente(estado);
@@ -49,7 +48,12 @@ public class Agente {
 
 		if (isObjetivo(estado)) {
 			listaExplorada.add(estado);
-			imprimeResultado();
+			System.out.println("**********Estados Visitados**********");
+			imprimeEstadosVisitados();
+			System.out.println("*************************************\n\n");
+			System.out.println("**********Caminho Ate Objetivo**********");
+			imprimeCaminhoAteObjetivo(estado);
+			System.out.println("*************************************\n\n");
 		} else {
 
 			if (!estaNaListaExplorada(estado)) {
@@ -61,20 +65,20 @@ public class Agente {
 				if (estado.getPosicaoAgente().equals(PosicaoAgente.ESQUERDA)) {
 
 					// estado esquerda
-					//estadoEsq.setEstadoPai(estado);
-					/*estadoEsq.setPosicaoAgente(estado.getPosicaoAgente());
+					estadoEsq.setEstadoPai(estado);
+					estadoEsq.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoEsq.setSituacaoDireita(estado.getSituacaoDireita());
-					estadoEsq.setSituacaoEsquerda(estado.getSituacaoEsquerda());*/
-					estadoEsq = estado;
+					estadoEsq.setSituacaoEsquerda(estado.getSituacaoEsquerda());
+					//estadoEsq = estado;
 
 					// estado direita
-					//estadoDir.setEstadoPai(estado);
+					estadoDir.setEstadoPai(estado);
 					estadoDir.setPosicaoAgente(PosicaoAgente.DIREITA);
 					estadoDir.setSituacaoDireita(estado.getSituacaoDireita());
 					estadoDir.setSituacaoEsquerda(estado.getSituacaoEsquerda());
 
 					// estado limpo
-					//estadoLim.setEstadoPai(estado);
+					estadoLim.setEstadoPai(estado);
 					estadoLim.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoLim.setSituacaoDireita(estado.getSituacaoDireita());
 					estadoLim.setSituacaoEsquerda(Situacao.LIMPO);
@@ -86,20 +90,20 @@ public class Agente {
 				} else {
 
 					// estado esquerda
-					//estadoEsq.setEstadoPai(estado);
+					estadoEsq.setEstadoPai(estado);
 					estadoEsq.setPosicaoAgente(PosicaoAgente.ESQUERDA);
 					estadoEsq.setSituacaoDireita(estado.getSituacaoDireita());
 					estadoEsq.setSituacaoEsquerda(estado.getSituacaoEsquerda());
 
 					// estado direita
-					//estadoDir.setEstadoPai(estado);
-					/*estadoDir.setPosicaoAgente(estado.getPosicaoAgente());
+					estadoDir.setEstadoPai(estado);
+					estadoDir.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoDir.setSituacaoDireita(estado.getSituacaoDireita());
-					estadoDir.setSituacaoEsquerda(estado.getSituacaoEsquerda());*/
-					estadoDir = estado;
+					estadoDir.setSituacaoEsquerda(estado.getSituacaoEsquerda());
+					//estadoDir = estado;
 
 					// estado limpo
-					//estadoLim.setEstadoPai(estado);
+					estadoLim.setEstadoPai(estado);
 					estadoLim.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoLim.setSituacaoDireita(Situacao.LIMPO);
 					estadoLim.setSituacaoEsquerda(estado.getSituacaoEsquerda());
@@ -121,7 +125,12 @@ public class Agente {
 	private void aspirarBel(Estado estado) {
 		if (isObjetivo(estado)) {
 			listaExplorada.add(estado);
-			imprimeResultado();
+			System.out.println("**********Estados Visitados**********");
+			imprimeEstadosVisitados();
+			System.out.println("*************************************\n\n");
+			System.out.println("**********Caminho Ate Objetivo**********");
+			imprimeCaminhoAteObjetivo(estado);
+			System.out.println("*************************************\n\n");
 		} else {
 
 			if (!estaNaListaExplorada(estado)) {
@@ -133,20 +142,20 @@ public class Agente {
 				if (estado.getPosicaoAgente().equals(PosicaoAgente.ESQUERDA)) {
 
 					// estado esquerda
-					//estadoEsq.setEstadoPai(estado);
-					/*estadoEsq.setPosicaoAgente(estado.getPosicaoAgente());
+					estadoEsq.setEstadoPai(estado);
+					estadoEsq.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoEsq.setSituacaoDireita(estado.getSituacaoDireita());
-					estadoEsq.setSituacaoEsquerda(estado.getSituacaoEsquerda());*/
-					estadoEsq = estado;
+					estadoEsq.setSituacaoEsquerda(estado.getSituacaoEsquerda());
+					//estadoEsq = estado;
 
 					// estado direita
-					//estadoDir.setEstadoPai(estado);
+					estadoDir.setEstadoPai(estado);
 					estadoDir.setPosicaoAgente(PosicaoAgente.DIREITA);
 					estadoDir.setSituacaoDireita(estado.getSituacaoDireita());
 					estadoDir.setSituacaoEsquerda(estado.getSituacaoEsquerda());
 
 					// estado limpo
-					//estadoLim.setEstadoPai(estado);
+					estadoLim.setEstadoPai(estado);
 					estadoLim.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoLim.setSituacaoDireita(estado.getSituacaoDireita());
 					estadoLim.setSituacaoEsquerda(Situacao.LIMPO);
@@ -158,20 +167,20 @@ public class Agente {
 				} else {
 
 					// estado esquerda
-					//estadoEsq.setEstadoPai(estado);
+					estadoEsq.setEstadoPai(estado);
 					estadoEsq.setPosicaoAgente(PosicaoAgente.ESQUERDA);
 					estadoEsq.setSituacaoDireita(estado.getSituacaoDireita());
 					estadoEsq.setSituacaoEsquerda(estado.getSituacaoEsquerda());
 
 					// estado direita
-					//estadoDir.setEstadoPai(estado);
-					/*estadoDir.setPosicaoAgente(estado.getPosicaoAgente());
+					estadoDir.setEstadoPai(estado);
+					estadoDir.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoDir.setSituacaoDireita(estado.getSituacaoDireita());
-					estadoDir.setSituacaoEsquerda(estado.getSituacaoEsquerda());*/
+					estadoDir.setSituacaoEsquerda(estado.getSituacaoEsquerda());
 					estadoDir = estado;
 
 					// estado limpo
-					//estadoLim.setEstadoPai(estado);
+					estadoLim.setEstadoPai(estado);
 					estadoLim.setPosicaoAgente(estado.getPosicaoAgente());
 					estadoLim.setSituacaoDireita(Situacao.LIMPO);
 					estadoLim.setSituacaoEsquerda(estado.getSituacaoEsquerda());
@@ -190,33 +199,40 @@ public class Agente {
 		}
 	}
 	
-	private void imprimeResultado() {
+	private void imprimeEstadosVisitados() {
+		int pos = 1;
 		for (Estado estado : listaExplorada) {
+			System.out.println("" + pos);
 			System.out.println("Esquerda: " + estado.getSituacaoEsquerda());
 			System.out.println("Direita: " + estado.getSituacaoDireita());
 			System.out.println("Posicao Agente: " + estado.getPosicaoAgente());
 			System.out.println();
+			pos++;
 		}
 	}
 
-//	private void imprimeResultadoPeloEstadoPai(Estado estado) {
-//		resultado += imprimeEstado(estado);
-//		Estado e = estado;
-//
-//		while (e.getEstadoPai() != null) {
-//			e = e.getEstadoPai();
-//			resultado = imprimeEstado(e) + resultado;
-//		}
-//
-//		System.out.println(resultado);
-//
-//	}
-//
-//	private String imprimeEstado(Estado estado) {
-//		return  "|E = " + estado.getSituacaoEsquerda().name() + "|\n" +
-//				"|D = " + estado.getSituacaoDireita().name() + "|\n" +
-//				"|A = " + estado.getPosicaoAgente().name() + "|\n\n";
-//	}
+	private void imprimeCaminhoAteObjetivo(Estado estado) {
+		int pos = 1;
+		String resultado = "";
+		resultado += imprimeEstado(estado, pos);
+		Estado e = estado;
+
+		while (e.getEstadoPai() != null) {
+			pos++;
+			e = e.getEstadoPai();
+			resultado = imprimeEstado(e, pos) + resultado;
+		}
+
+		System.out.println(resultado);
+
+	}
+
+	private String imprimeEstado(Estado estado, int pos) {
+		return  "" + pos + "\n" +
+				"Esquerda: " + estado.getSituacaoEsquerda() + "\n" +
+				"Direita: " + estado.getSituacaoDireita() + "\n" +
+				"Posicao Agente: " + estado.getPosicaoAgente() + "\n\n";
+	}
 
 	private boolean isObjetivo(Estado estado) {
 		return estado.getSituacaoDireita().equals(Situacao.LIMPO) &&
@@ -224,7 +240,15 @@ public class Agente {
 	}
 
 	private boolean estaNaListaExplorada(Estado estado) {
-		return listaExplorada.indexOf(estado) != -1;
+		//return listaExplorada.indexOf(estado) != -1;
+		for (Estado e : listaExplorada) {
+			if (estado.getSituacaoDireita().equals(e.getSituacaoDireita()) &&
+					estado.getSituacaoEsquerda().equals(e.getSituacaoEsquerda()) &&
+					estado.getPosicaoAgente().equals(e.getPosicaoAgente())) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 }

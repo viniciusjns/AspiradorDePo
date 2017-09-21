@@ -73,8 +73,4 @@ public class Estado implements Serializable {
 		ESQUERDA, DIREITA
 	}
 
-	public enum Acao {
-		IR_ESQUERDA, IR_DIREITA, LIMPAR
-	}
-
 }
